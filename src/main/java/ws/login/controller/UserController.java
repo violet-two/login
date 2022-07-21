@@ -10,8 +10,6 @@ public class UserController {
     @RequestMapping("/login")
     @ResponseBody
     public Object login(){
-        var i = 0 ;
-        var j = 0 ;
         return "success";
     }
 
